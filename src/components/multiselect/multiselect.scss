@@ -1,0 +1,29 @@
+.multiselect {
+  display: inline-block;
+  width: 213px;
+  vertical-align: top;
+  margin-left: 10px;
+
+  .Select-control {
+    border-radius: 2px;
+    height: 302px;
+    border: none;
+  }
+
+  .Select-value {
+    margin-left: 4px;
+    margin-top: 4px;
+    background-color: rgba(188, 199, 210, 0.42);
+    border-radius: 2px;
+    border: 1px solid rgba(148, 148, 148, 0.24);
+    color: #525252;
+    display: inline-block;
+    font-size: 0.9em;
+    line-height: 1.4;
+    vertical-align: top;    
+  }
+
+  .Select-value-icon {
+    border-right: 1px solid rgba(130, 130, 130, 0.24);
+  }
+}

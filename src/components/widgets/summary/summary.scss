@@ -1,0 +1,32 @@
+.w-summary {
+	height: 100%;
+	width: 100%;
+
+  .w-summary-title {
+		display: block;
+		width: 100%;
+		margin: 0;
+    text-align: center;
+		vertical-align: middle;
+		color: #6b6b6b;
+	}
+
+	.w-summary-value-container {
+		height: 100%;
+		width: 100%;
+		display: flex;
+		align-items: center;
+		margin-top: -1em;
+
+		.w-summary-value {
+			width: 100%;
+			text-align: center;
+			font-size: 2em;
+			margin: 0;
+			line-height: 1;
+			vertical-align: middle;		
+		}
+
+	}
+
+}

@@ -1,0 +1,13 @@
+.settings {
+	background-color: #858d96;
+  padding: 10px;
+
+  .rdr-DateRange {
+    display: inline-block !important;
+  }
+
+  .multiselect {
+    display: inline-block !important;
+    .Select-option.is-selected { display: none; }
+  }
+}

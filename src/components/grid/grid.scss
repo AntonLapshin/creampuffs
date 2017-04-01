@@ -1,0 +1,33 @@
+.grid {
+	background-color: #ddd;
+	height: 100%;
+
+	.react-grid-item {
+		background-color: white;
+		padding: 1em;
+		cursor: pointer;
+		box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14), 0 1px 5px 0 rgba(0,0,0,0.12), 0 3px 1px -2px rgba(0,0,0,0.2);
+	}
+
+  .w-loader {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: -20px;
+    margin-top: -19px;    
+  }	
+
+	.w {
+		.w-loader {
+			display: none;
+		}
+		&.is-loading {
+			.w-content {
+				display: none !important;
+			}
+			.w-loader {
+				display: block;
+			}
+		}
+	}
+}
