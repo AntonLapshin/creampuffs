@@ -1,3 +1,3 @@
-TODOs:
-
-npm shrinkwrap
+Cream Puffs Dashboard
+===================
+Demo: https://creampuffs.herokuapp.com/
